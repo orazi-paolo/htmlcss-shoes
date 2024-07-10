@@ -7,3 +7,77 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* generics */
+h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 4px 4px 0px black;
+}
+
+ul{
+    list-style-type: none;
+    gap: 20px;
+    position: relative;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 50%;
+}
+
+html{
+    overflow-y: hidden;
+}
+
+/* utils */
+.page{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: darkgreen;
+}
+
+.flex{
+    display: flex;
+}
+
+.f-yl{
+    color: yellow;
+}
+
+
+/* main */
+.content{
+    position: relative;
+    bottom: 50px;   
+}
+
+ul{
+    position: fixed;
+    top: 100px;
+    right: 200px;
+}
+
+
