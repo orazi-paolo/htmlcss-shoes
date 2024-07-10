@@ -59,12 +59,20 @@ html{
     background-color: darkgreen;
 }
 
+.bg-yellow{
+    background-color: yellow;
+}
+
 .flex{
     display: flex;
 }
 
 .f-yl{
     color: yellow;
+}
+
+.f-green{
+    color: darkgreen;
 }
 
 
